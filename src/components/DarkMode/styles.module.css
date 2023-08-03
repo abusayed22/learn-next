@@ -1,0 +1,22 @@
+.container{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border: 1px solid rgba(157, 199, 93, 0.342);
+    background: #00000023;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.icon{
+   font-size: 12px;
+}
+.ball{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-color: rgba(14, 223, 14, 0.959);
+    border-radius: 50%;
+}
